@@ -51,7 +51,7 @@ The client's existing physical advertisement was the primary visual reference fo
 
 I used Figma to explore logo ideas, develop wireframes and design responsive desktop and mobile layouts.
 
-My responsibilities included:
+This includes:
 - Translating the client's existing advertisement into a consistent website identity.
 - Planning page structure, content hierarchy and customer enquiry journeys.
 - Creating desktop and mobile designs.
