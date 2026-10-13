@@ -1,10 +1,8 @@
-# Irwin Plastering — Website Design & Development
+# Irwin Plastering Website Design & Development
 
 **Independent Client Project | Completed April 2025**
 
 **Tech Stack:** Next.js 15 · React 19 · TypeScript · Tailwind CSS · shadcn/ui · Zod · React Hook Form · EmailJS · Vercel · Figma
-
-# Irwin Plastering — Website Design & Development
 
 **Independent Client Project | April 2025**
 
