@@ -21,7 +21,7 @@ I independently handled frontend development, form validation, customer enquiry 
 
 The project was designed around the client's limited budget, prioritising maintainability, performance and avoiding unnecessary backend infrastructure.
 
-### Key Contributions
+### My role
 
 - **End-to-end ownership:** Managed discovery, design, development, deployment and handover.
 - **UI/UX design:** Created logo concepts, wireframes and responsive layouts in Figma.
