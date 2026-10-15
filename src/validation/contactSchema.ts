@@ -1,57 +1,39 @@
 import { z } from 'zod';
 
-export const LOCATION_TYPES = ['HOME OWNER', 'PRIVATE HOUSE', 'COMMERCIAL PROPERTY'] as const;
-
+// A smaller selection of services for this demonstration.
 export const SERVICE_OPTIONS = [
-  'PLASTERING',
-  'LIQUID SCREED',
-  'K RENDERING',
-  'RENDERING',
-  'COLOURED SCREED',
-  'ONSITE CONSULTATION',
-  'REPAIRS',
-  'RESTORATION',
-  'FIREPROOFING',
-  'ACOUSTIC PLASTERING',
-  'MONOCOUCHE RENDERING',
-  'SAND AND CEMENT RENDERING',
-  'TRADITIONAL LIME RENDERING',
-  'PEBBLE DASHING',
-  'EXTERNAL WALL INSULATION',
-  'PLASTERBOARDING/STUD WALLS',
+  'Plastering',
+  'Rendering',
+  'Liquid screed',
+  'Repairs and restoration',
+  'Other / not sure',
 ] as const;
 
-export type LocationType = (typeof LOCATION_TYPES)[number];
-export type ServiceOption = (typeof SERVICE_OPTIONS)[number];
-
-export const isLocationType = (value: string): value is LocationType =>
-  (LOCATION_TYPES as readonly string[]).includes(value);
-
-const ukPostcodeRegex =
-  /^(GIR\s?0AA|(?:(?:[A-PR-UWYZ][0-9]{1,2})|(?:[A-PR-UWYZ][A-HK-Y][0-9]{1,2})|(?:[A-PR-UWYZ][0-9][A-HJKPSTUW])|(?:[A-PR-UWYZ][A-HK-Y][0-9][ABEHMNPRV-Y]))\s?\d[ABD-HJLNP-UW-Z]{2})$/i;
-
 export const contactFormSchema = z.object({
-  firstName: z.string().min(2, { message: 'First name must be at least 2 characters long.' }),
-  secondName: z.string().min(2, { message: 'Second name must be at least 2 characters long.' }),
-  phoneNumber: z.string().regex(/^\d{11}$/, { message: 'Phone number must be 11 digits.' }),
-  email: z.string().email({ message: 'Please enter a valid email address.' }),
-  typeOfLocation: z.enum(LOCATION_TYPES, {
-    errorMap: () => ({ message: 'Select one type of location.' }),
-  }),
-  postcode: z.string().regex(ukPostcodeRegex, { message: 'Invalid UK postcode.' }),
-  message: z.string().min(10, { message: 'Message should be at least 10 characters.' }),
-  services: z.array(z.enum(SERVICE_OPTIONS)).min(1, { message: 'Select at least one service.' }),
+  firstName: z.string().trim().min(2, 'Enter at least 2 characters for your first name.'),
+  lastName: z.string().trim().min(2, 'Enter at least 2 characters for your last name.'),
+  email: z.email('Enter a valid email address.'),
+  phoneNumber: z.string().trim().refine((value) => {
+    const compact = value.replace(/[\s()-]/g, '');
+    return /^0\d{10}$/.test(compact) || /^\+44\d{10}$/.test(compact);
+  }, 'Enter a UK phone number, such as 07123 456789 or +44 7123 456789.'),
+  postcode: z.string().trim().regex(
+    /^(GIR\s?0AA|(?:[A-Z]{1,2}\d[A-Z\d]?)\s?\d[A-Z]{2})$/i,
+    'Enter a valid UK postcode.'
+  ),
+  service: z.enum(SERVICE_OPTIONS, { error: 'Choose a service.' }),
+  message: z.string().trim().min(10, 'Describe the work in at least 10 characters.'),
 });
 
 export type ContactFormValues = z.infer<typeof contactFormSchema>;
 
-export const contactFormDefaults: ContactFormValues = {
+// The service starts unselected.
+export const contactFormDefaults = {
   firstName: '',
-  secondName: '',
-  phoneNumber: '',
+  lastName: '',
   email: '',
-  typeOfLocation: 'HOME OWNER',
+  phoneNumber: '',
   postcode: '',
+  service: undefined,
   message: '',
-  services: [],
 };
