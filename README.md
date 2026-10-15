@@ -5,7 +5,7 @@
 **Role:** Sole Designer & Developer  
 **Stack:** Next.js 15 · React 19 · TypeScript · Tailwind CSS · Zod · React Hook Form · EmailJS · Vercel  
 **Design:** Figma · Responsive UI · Wireframing · Brand Development  
-**Status:** Completed — Original domain currently inactive
+**Status:** Completed - Original domain currently inactive
 
 ## Project Overview
 
@@ -63,7 +63,7 @@ The discussions established practical constraints and content needs. For example
 
 ### 2. Competitor Benchmarking & UI Inspiration
 
-I researched plastering and construction websites to understand how similar businesses structured their navigation, described services, presented completed projects and encouraged visitors to get in touch. In FigJam, I grouped references by interface area—including navigation bars, service pages, project galleries, company information and contact forms—so I could compare specific patterns rather than just collect whole-page screenshots.
+I researched plastering and construction websites to understand how similar businesses structured their navigation, described services, presented completed projects and encouraged visitors to get in touch. In FigJam, I grouped references by interface area including navigation bars, service pages, project galleries, company information and contact forms so I could compare specific patterns rather than just collect whole-page screenshots.
 
 I also explored contact-form and layout inspiration on Dribbble, looking at approaches to field grouping, service selection, typography and visual hierarchy. For visual direction, I reviewed construction-sector branding and found Jewson a useful reference for the client's industry. These were **third-party references**, not designs I created or copied directly.
 
