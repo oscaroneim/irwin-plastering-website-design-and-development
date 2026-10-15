@@ -97,8 +97,6 @@ The sitemap was a **planning exploration**, rather than a claim that every propo
 
 <img width="1012" height="612" alt="Navigation and footer planning" src="https://github.com/user-attachments/assets/e0cd6a60-84b9-46d3-bcb9-ee06fbc87c98" />
 
-**[View the Project Planning Board](https://www.figma.com/board/HBOqC60AKhqZzq3djfvhse/Project-and-planning-guide)**
-
 ### 4. Desktop Layout Exploration
 
 I developed multiple homepage concepts in Figma, experimenting with hero imagery, the placement of geographic coverage information, calls to action, service categories, examples of past work and credibility-building content. I also compared footer and logo treatments to find an approach that worked with the client's existing identity.
@@ -134,18 +132,6 @@ Throughout the project I presented concepts to the client, clarified requirement
 <img width="505" height="900" alt="High-fidelity mobile screens" src="https://github.com/user-attachments/assets/eabae2f9-81fe-4dd5-bdf6-df41fd4ce928" />
 
 **[Explore the Figma Wireframes and Designs](https://www.figma.com/design/5EYAwkjd017kZltZo5fwV0/Plastering-website)**
-
-### Responsive Website Design
-
-I designed the website in Figma, creating layouts for desktop and mobile devices. My approach focused on maintaining a consistent visual identity while adapting navigation, content hierarchy and service information for smaller screens.
-
-#### Desktop Homepage
-
-![Desktop homepage Figma design](assets/Landing%20page.png)
-
-#### Mobile Homepage
-
-<img src="assets/iPhone%2013%20%26%2014%20Landing%20page.png" alt="Mobile homepage Figma design" width="300" />
 
 ### Visual Identity Exploration
 
