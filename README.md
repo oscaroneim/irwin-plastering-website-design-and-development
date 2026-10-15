@@ -56,6 +56,7 @@ The discussions established practical constraints and content needs. For example
 **Stakeholder discovery questionnaire:** Initial questions covering the business, target audiences, services, contact methods and available content.
 
 <img width="1437" height="320" alt="Stakeholder discovery questionnaire" src="https://github.com/user-attachments/assets/3977ce3c-adfb-4946-b58f-f9cf6dd385a0" />
+
 **Follow-up stakeholder requirements:** Further notes confirming target customer groups, geographic coverage and key services.
 
 <img width="477" height="275" alt="Follow-up stakeholder requirements" src="https://github.com/user-attachments/assets/312fa592-a9dd-4ad5-bb06-efec0bacbe1e" />
