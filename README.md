@@ -179,6 +179,13 @@ The examples in this repository represent **post-project refactoring work**, rat
 
 These examples are intended to demonstrate my engineering approach and continued development. They do not constitute a complete, independently runnable copy of the original application.
 
+**Explore the refactored code:**
+
+- [ContactForm.tsx](src/components/ContactForm.tsx)  A responsive React form using React Hook Form, Zod validation, accessible field errors and a demonstration-only confirmation state.
+- [contactSchema.ts](src/validation/contactSchema.ts)  Centralised Zod 4 validation, reusable service options, inferred TypeScript types and default values.
+
+These examples demonstrate a simplified post project refactoring. They do not send enquiries or represent the exact production code.
+
 ### Next.js and React
 I selected Next.js for its support for static generation, SEO metadata and image optimisation. Its React-based architecture also supported reusable UI components.
 
