@@ -72,12 +72,15 @@ This research helped me identify options to explore in my own layouts; it was co
 **Contact form inspiration:** Third-party contact form references used to compare field grouping, service selection and layout.
 
 <img width="1221" height="942" alt="Contact form inspiration" src="https://github.com/user-attachments/assets/b4518c54-2d71-4e4a-ade3-fd4941e3c7fb" />
+
 **Website layout benchmarking:** Competitor examples grouped by service presentation, projects and page layout.
 
 <img width="1488" height="954" alt="Website layout benchmarking" src="https://github.com/user-attachments/assets/2cfbc424-1ee5-4d90-b9d6-aa5cf827d247" />
+
 **Company and navigation references:** Third-party examples of company information, contact sections and navigation patterns.
 
 <img width="1164" height="945" alt="Company and navigation references" src="https://github.com/user-attachments/assets/74fd5ec0-c563-43bc-a7e9-4f32d93ce4aa" />
+
 **Navigation and visual style research:** Examples of navigation menus, typography, colour and construction-sector visual styling.
 
 <img width="1256" height="978" alt="Navigation and visual style research" src="https://github.com/user-attachments/assets/27274ac9-6309-43b9-9667-6ab8e3f37fb3" />
@@ -93,6 +96,7 @@ The sitemap was a **planning exploration**, rather than a claim that every propo
 **Initial website sitemap:** Proposed page structure showing services, projects, testimonials, company information and contact routes.
 
 <img width="1290" height="567" alt="Initial website sitemap" src="https://github.com/user-attachments/assets/420c82b8-737b-460a-9b63-cfe852bd4ff9" />
+
 **Navigation and footer planning:** Early layout exploration for navigation, footer links and a prominent quote call to action.
 
 <img width="1012" height="612" alt="Navigation and footer planning" src="https://github.com/user-attachments/assets/e0cd6a60-84b9-46d3-bcb9-ee06fbc87c98" />
@@ -106,6 +110,7 @@ These alternatives let me assess content hierarchy and visual balance before ref
 **Desktop homepage iterations:** Alternative homepage compositions exploring the hero, service categories, regional messaging and project imagery.
 
 <img width="1109" height="708" alt="Desktop homepage iterations" src="https://github.com/user-attachments/assets/de749791-5b25-401f-a66b-ad81fac3914f" />
+
 **Footer and brand variations:** Alternative footer arrangements and logo treatments explored in Figma.
 
 <img width="773" height="632" alt="Footer and brand variations" src="https://github.com/user-attachments/assets/4e220cac-a3a4-43c0-be4b-eb96dbdbc0d5" />
@@ -127,6 +132,7 @@ Throughout the project I presented concepts to the client, clarified requirement
 **High-fidelity desktop screens:** Refined desktop layouts for the landing page, quotation form and enquiry confirmation.
 
 <img width="1056" height="849" alt="High-fidelity desktop screens" src="https://github.com/user-attachments/assets/6a30ea11-5e1f-4bb3-91ac-97caf79fa1b7" />
+
 **High-fidelity mobile screens:** Refined mobile layouts for the landing page, contact form and enquiry confirmation.
 
 <img width="505" height="900" alt="High-fidelity mobile screens" src="https://github.com/user-attachments/assets/eabae2f9-81fe-4dd5-bdf6-df41fd4ce928" />
@@ -181,8 +187,8 @@ These examples are intended to demonstrate my engineering approach and continued
 
 **Explore the refactored code:**
 
-- [ContactForm.tsx](src/components/ContactForm.tsx)  A responsive React form using React Hook Form, Zod validation, accessible field errors and a demonstration-only confirmation state.
-- [contactSchema.ts](src/validation/contactSchema.ts)  Centralised Zod 4 validation, reusable service options, inferred TypeScript types and default values.
+- [ContactForm.tsx](src/components/ContactForm.tsx) - A responsive React form using React Hook Form, Zod validation, accessible field errors and a demonstration-only confirmation state.
+- [contactSchema.ts](src/validation/contactSchema.ts) - Centralised Zod 4 validation, reusable service options, inferred TypeScript types and default values.
 
 These examples demonstrate a simplified post project refactoring. They do not send enquiries or represent the exact production code.
 
