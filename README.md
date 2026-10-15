@@ -2,8 +2,6 @@
 
 **Independent Client Project | Completed April 2025**
 
-**Tech Stack:** Next.js 15 · React 19 · TypeScript · Tailwind CSS · shadcn/ui · Zod · React Hook Form · EmailJS · Vercel · Figma
-
 **Role:** Sole Designer & Developer  
 **Stack:** Next.js 15 · React 19 · TypeScript · Tailwind CSS · Zod · React Hook Form · EmailJS · Vercel  
 **Design:** Figma · Responsive UI · Wireframing · Brand Development  
