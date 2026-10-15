@@ -100,6 +100,20 @@ I also designed a confirmation screen to communicate that the enquiry had been r
 
 ## Engineering & Architecture
 
+### Selected Code Examples & Refactoring
+
+The original website was delivered in April 2025. Since completing the project, I have revisited parts of the implementation to apply what I've learned about maintainability, type safety and separation of concerns.
+
+The examples in this repository represent **post-project refactoring work**, rather than the exact code deployed in the original website.
+
+**Areas of focus:**
+
+- **Validation:** Extracting the Zod schema, form types and reusable option constants into a dedicated module.
+- **Form architecture:** Separating React Hook Form state management from validation rules and presentation.
+- **Maintainability:** Reducing duplicated values and making individual responsibilities easier to understand and test.
+
+These examples are intended to demonstrate my engineering approach and continued development. They do not constitute a complete, independently runnable copy of the original application.
+
 ### Next.js and React
 I selected Next.js for its support for static generation, SEO metadata and image optimisation. Its React-based architecture also supported reusable UI components.
 
